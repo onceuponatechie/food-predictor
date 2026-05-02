@@ -11,8 +11,13 @@ export function Layout() {
         </div>
       </main>
       <footer className="border-t border-neutral-200 bg-surface">
-        <div className="mx-auto w-full max-w-content px-4 sm:px-6 lg:px-8 py-6 text-caption text-neutral-500">
-          Food Forecast — public price guidance for everyday Nigerian consumers.
+        <div className="mx-auto w-full max-w-content px-4 sm:px-6 lg:px-8 py-8 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <p className="text-caption text-neutral-600">
+            Free, non-commercial. Built for social good. We forecast, we don't trade.
+          </p>
+          <p className="text-caption text-neutral-500">
+            Built by the team at NitHub, University of Lagos.
+          </p>
         </div>
       </footer>
     </div>
